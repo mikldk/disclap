@@ -1,0 +1,14 @@
+Changes in version 1.5.1
+  * Fix bugs: validmu function (ensure it returns TRUE or FALSE), imports
+  
+Changes in version 1.5
+  * rdisclap returns integer vector
+  
+Changes in version 1.4
+  * Added possibility to use parameter p = 0
+
+Changes in version 1.3
+  * Null deviance corrected (again, sorry) for d != 0
+  
+Changes in version 1.2
+  * Null deviance corrected for d != 0

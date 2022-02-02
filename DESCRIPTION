@@ -1,0 +1,9 @@
+Package: disclap
+Type: Package
+Title: Discrete Laplace Exponential Family
+Version: 1.5.1
+Author: Mikkel Meyer Andersen and Poul Svante Eriksen
+Maintainer: Mikkel Meyer Andersen <mikl@math.aau.dk>
+Description: The discrete Laplace exponential family for use in fitting generalized linear models.
+License: GPL-2
+LazyLoad: yes
