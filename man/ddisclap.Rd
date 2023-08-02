@@ -20,7 +20,7 @@ rdisclap(n, p)
   \item{n}{number of observations to generate}
 }
 \details{
-The probability mass function for the discrete Laplace distribution with parameter \eqn{0 < p < 1} is given by \eqn{P(X = x) = \frac{1-p}{1+p} p^x}{P(X = x) = ((1-p)/(1+p))*p^x} for \eqn{x \in \mathbf{Z}}{x = ..., -1, 0, 1, ...}.
+The probability mass function for the discrete Laplace distribution with parameter \eqn{0 < p < 1} is given by \eqn{P(X = x) = \frac{1-p}{1+p} p^{|x|}}{P(X = x) = ((1-p)/(1+p))*p^x} for \eqn{x \in \mathbf{Z}}{x = ..., -1, 0, 1, ...}.
 
 If \code{x} is a vector, then \code{p} must have either length 1 or the same length as \code{x}. If \code{p} has length 1, then the value will be reused for all values in \code{x}.
 }
